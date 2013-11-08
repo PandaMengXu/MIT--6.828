@@ -1,0 +1,4 @@
+tool/
+-------
+gcc-4.4.5 is used to compile lab1; modified to be compilable under gcc-4.6 on Ubuntu 12.04LTS
+bochs is used to emulate the hardware; modified to be compilable under gcc-4.6 on Ubuntu 12.04LTS
