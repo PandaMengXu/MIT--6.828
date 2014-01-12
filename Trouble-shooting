@@ -11,3 +11,7 @@
 	b) use gcc-4.4.5 compiler! When compile gcc-4.4.5, use ./configure --prefix=/usr/local/gcc-4.4.5 to get multiple compile on O.S.. You need to set the symbolic link to the gcc-4.4.5
 	c) When you compile the gcc-4.4.5, it may report bugs, you need to look into the config.log and the error information, figure out what the real error is, and solve the real error. Do NOT totally rely on google the error message! Not everyone encounter the exactly same error, but if you search how to solve the key error (for example, how to solve the XXX library cannot find error), you will definitly find the answer! 
 	In a word, when you compile open source software and encounter error, think about why this error happens and solve  the reason! The error is not complex in 99.9% cases, because it did run on existing platform! Error is usually caused by lacking some files, which is usually caused by: 1) not install; 2) cannot find the correct place of the files. 
+
+5. Cannot log into desktop in boot when install other OS. 
+Reason: did NOT install ubuntu-desktop package
+Solution: use recovery mode and install the ubuntu-desktop package with the command "apt-get install ubuntu-desktop" to fix it! First need to check if you can log into the system with command line. Ctrl+Alt+[F1-F6] changes among the available tty,i.e., monitor
