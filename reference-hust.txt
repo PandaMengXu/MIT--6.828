@@ -1,0 +1,3 @@
+Zhiyuan Shao from HUST: His course multicore OS practice is the same with MIT-os course! He has the example of the lab practice and can use it for a good reference! 
+URL: http://grid.hust.edu.cn/zyshao/OSEngineering.htm
+
